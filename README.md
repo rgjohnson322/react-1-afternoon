@@ -322,7 +322,7 @@ export default class TopicBrowser extends Component {
 }
 ```
 
-Now that they are imported into our `TopicBrowser` component we can render them in our `return`. Similiar to how we rendered `TopicBrowser` in `App.js` we'll wrap each component we imported in `< />`. Since we are trying to `render` more than component we'll have to wrap the components in a `div`. The `return` of a `render` method can only return one element, but there is no limit to how much you can nest in that one element. Your `TopicBrowser` should look like:
+Now that they are imported into our `TopicBrowser` component we can render them in our `return`. Similar to how we rendered `TopicBrowser` in `App.js` we'll wrap each component we imported in `< />`. Since we are trying to `render` more than component we'll have to wrap the components in a `div`. The `return` of a `render` method can only return one element, but there is no limit to how much you can nest in that one element. Your `TopicBrowser` should look like:
 
 ```js
 import React, { Component } from 'react';
@@ -480,7 +480,7 @@ export default class Sum extends Component {
 
 ### Summary
 
-In the following steps it's important to understand that there is more than one way to solve a toy problem; if your solution doesn't match mine that's okay. Also, since the following 5 components are very similiar in their structure, only step 3's detailed instructions go into great detail. The other steps after that won't go into much detail.
+In the following steps it's important to understand that there is more than one way to solve a toy problem; if your solution doesn't match mine that's okay. Also, since the following 5 components are very similar in their structure, only step 3's detailed instructions go into great detail. The other steps after that won't go into much detail.
 
 In this step, we'll start with the first topic: `EvenAndOdd`.
 
